@@ -1,0 +1,18 @@
+[package]
+name = "example"
+version = "0.0.1"
+authors = [
+    "Sander Vocke <sandervocke@gmail.com>"
+]
+edition = "2021"
+
+[lib]
+crate-type = ["staticlib"]
+
+[dependencies]
+cxx = "1.0.95"
+cxx-qt = "0.6"
+cxx-qt-lib = "0.6"
+
+[build-dependencies]
+cxx-qt-build = "0.6"
